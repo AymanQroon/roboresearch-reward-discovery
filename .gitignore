@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+/registry/
+model_checkpoints/
+.DS_Store
+.ruff_cache/
+overnight_run.log
+long_train.log
+*.mp4
+
+# Local working docs
+/notes/
+constitution/
+pickandplace_train.log
+
+# Keep assets for README
+!assets/*.gif
+!assets/*.png
