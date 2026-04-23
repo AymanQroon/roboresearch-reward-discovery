@@ -20,15 +20,15 @@ All 7 FrankaKitchen-v1 subtasks solved with the **same dense-reward template**, 
 
 Eval protocol: 3-episode deterministic eval every 5k steps; "first 100%" is the first eval that hit `subtask in info["episode_task_completions"]` on all 3 episodes. Final 20-episode evals after early-stop are in `progress.log` files per iteration.
 
-### Untrained vs trained (final frame, deterministic rollout)
+### Untrained vs trained (deterministic rollout, side-by-side)
 
-![microwave](assets/microwave_before_after.png)
-![slide cabinet](assets/slide_cabinet_before_after.png)
-![hinge cabinet](assets/hinge_cabinet_before_after.png)
-![light switch](assets/light_switch_before_after.png)
-![bottom burner](assets/bottom_burner_before_after.png)
-![top burner](assets/top_burner_before_after.png)
-![kettle](assets/kettle_before_after.png)
+![microwave](assets/microwave_before_after.gif)
+![slide cabinet](assets/slide_cabinet_before_after.gif)
+![hinge cabinet](assets/hinge_cabinet_before_after.gif)
+![light switch](assets/light_switch_before_after.gif)
+![bottom burner](assets/bottom_burner_before_after.gif)
+![top burner](assets/top_burner_before_after.gif)
+![kettle](assets/kettle_before_after.gif)
 
 ## The reward template
 
